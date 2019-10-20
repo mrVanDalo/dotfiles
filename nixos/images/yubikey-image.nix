@@ -21,6 +21,7 @@
     midori
     paperkey
     gnupg
+    haskellPackages.hopenpgp-tools
   ];
 
   services.udev.packages = with pkgs; [ yubikey-personalization ];
