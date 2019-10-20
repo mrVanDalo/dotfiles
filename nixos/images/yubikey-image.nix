@@ -22,6 +22,7 @@
     paperkey
     gnupg
     haskellPackages.hopenpgp-tools
+    ctmg
   ];
 
   services.udev.packages = with pkgs; [ yubikey-personalization ];
